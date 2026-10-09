@@ -2,802 +2,416 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#092d25">
+  <meta name="description" content="Edwin Aldrin P — Associate Data Analyst at Arcadia. Portfolio of analytics projects, skills, experience and certifications.">
 
-    <meta charset="UTF-8">
+  <title>Edwin Aldrin P | Associate Data Analyst</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Arcadia EA Favicon -->
+  <link rel="icon" type="image/x-icon" href="arcadia-ea-favicon.ico">
+  <link rel="icon" type="image/png" sizes="256x256" href="assets/icons/arcadia-ea-favicon.png">
+  <link rel="apple-touch-icon" href="assets/icons/arcadia-ea-favicon.png">
 
-    <title>Edwin Aldrin | Data Analyst</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <meta name="description" content="Portfolio of Edwin Aldrin - Data Analyst specializing in SQL, Excel, Power BI and Python.">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/icons/ea-favi.png" sizes="32x32">
-    <link rel="apple-touch-icon" href="assets/icons/ea-favi.png">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
-
+  <!-- Main JavaScript -->
+  <script src="script.js" defer></script>
 </head>
 
 <body>
-
-    <!-- ========================= -->
-    <!-- PRELOADER -->
-    <!-- ========================= -->
-
-    <!-- <div id="preloader"></div> -->
-
-
-    <!-- ========================= -->
-    <!-- HEADER -->
-    <!-- ========================= -->
-
-<header class="header">
-
-    <a href="#" class="logo">
-        <img src="assets/icons/EA-logo.png" alt="Logo">
-    </a>
-
-    <nav class="navbar">
-
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#internship">Internship</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <a href="#resume">Resume</a>
-
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Edwin Aldrin home"><span class="brand-mark">EA</span><span>Edwin Aldrin<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#resume">Resume</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+      <a class="nav-resume" href="assets/resume/Edwin_Aldrin_P_BCA_2026_8.30_CGPA_AssociateDataAnalyst.pdf" target="_blank" rel="noopener">View PDF <span aria-hidden="true">↗</span></a>
     </nav>
+  </header>
 
-</header>
-
-
-
-    <!-- ========================= -->
-    <!-- HOME -->
-    <!-- ========================= -->
-
-    <section id="home" class="home">
-
-        <div class="home-content">
-
-            <div class="left">
-
-                <p class="intro">
-
-                    Entry-level Data Analyst passionate about transforming
-                    raw data into meaningful business insights through SQL,
-                    Excel, Power BI, and Python.
-
-                </p>
-
-            <div class="buttons">
-
-                <a href="assets/resume/Edwin_Aldrin_P_BCA_2026_8.30_CGPA_DataAnalyst.pdf"
-                download
-                class="btn">
-
-                Download CV
-
-                </a>
-
-                <a href="#contact"
-                class="btn-outline">
-
-                Contact Me
-
-                </a>
-
-            </div>
-
-        <div class="social">
-
-            <a href="mailto:edwinaldrin1719@gmail.com">
-                <i class="fa-solid fa-envelope"></i>
-            </a>
-
-
-
-            <a href="https://www.linkedin.com/in/edwinaldrin05/" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-
-            <a href="https://github.com/edwinaldrin05" target="_blank">
-                <i class="fa-brands fa-github"></i>
-            </a>
-
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-pulse"></span> ASSOCIATE DATA ANALYST <span class="eyebrow-divider"></span> CHENNAI, INDIA</div>
+        <h1>Turning data into<br><span class="gradient-text">clear decisions.</span></h1>
+        <p class="hero-lede">I’m Edwin Aldrin, an Associate Data Analyst at <strong>Arcadia</strong>. I clean, validate and analyze data to uncover patterns, communicate insights and support smarter business decisions.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="button button-secondary" href="assets/resume/Edwin_Aldrin_P_BCA_2026_8.30_CGPA_AssociateDataAnalyst.pdf" download>Download resume <span aria-hidden="true">↓</span></a>
         </div>
+        <div class="hero-links" aria-label="Social links">
+          <a href="mailto:edwinaldrin1719@gmail.com"><span class="social-icon">✉</span> Email</a>
+          <a href="https://www.linkedin.com/in/edwinaldrin05/" target="_blank" rel="noopener"><span class="social-icon">in</span> LinkedIn</a>
+          <a href="https://github.com/edwinaldrin05" target="_blank" rel="noopener"><span class="social-icon">⌘</span> GitHub</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="visual-glow"></div>
+        <div class="portrait-frame"><img src="assets/images/edi.png" alt="Portrait of Edwin Aldrin"></div>
+        <div class="floating-card floating-role"><span class="mini-icon">↗</span><span><strong>Associate Data Analyst</strong><small>Arcadia · Oct 2026 — Present</small></span></div>
+        <div class="floating-card floating-tools"><span class="tool-dot">Excel</span><span class="tool-dot">SQL</span><span class="tool-dot">Power BI</span></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      </div>
+      <div class="hero-bottom"><span>DATA ANALYSIS</span><span>BUSINESS INTELLIGENCE</span><span>CONTINUOUS LEARNING</span><span class="scroll-cue">SCROLL TO EXPLORE ↓</span></div>
+    </section>
 
-    </div>
+    <section class="proof-strip" aria-label="Portfolio highlights">
+      <div class="proof-inner">
+        <div><strong>8,354</strong><span>EV charging sessions analyzed</span></div>
+        <div><strong>8,806</strong><span>Netflix titles explored</span></div>
+        <div><strong>10+</strong><span>Excel PivotTable analyses</span></div>
+        <div><strong>3+</strong><span>Analytics tools in practice</span></div>
+      </div>
+      <p class="proof-note">Figures reflect the datasets and analyses described in my projects.</p>
+    </section>
 
-    <div class="right">
+    <section class="section-wrap section-block about-section" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">01 / ABOUT</p><h2>Curious by nature.<br><span class="muted-heading">Analytical by practice.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="large-copy">I enjoy making messy data more useful — from checking data quality to finding trends and building reports people can act on.</p>
+          <p>With a BCA degree and hands-on experience in data analysis, I work with Excel, SQL, Power BI, Python and Snowflake. My approach combines careful validation, structured analysis and clear communication.</p>
+          <div class="about-tags"><span>Data quality</span><span>Trend analysis</span><span>Reporting</span><span>Business insights</span></div>
+        </div>
+        <div class="principles reveal">
+          <article><span class="principle-number">01</span><div><h3>Trust the data</h3><p>Clean, validate and organize data before drawing conclusions.</p></div></article>
+          <article><span class="principle-number">02</span><div><h3>Find the signal</h3><p>Use formulas, queries and analysis to surface useful patterns.</p></div></article>
+          <article><span class="principle-number">03</span><div><h3>Make it clear</h3><p>Turn results into concise summaries, visuals and reports.</p></div></article>
+        </div>
+      </div>
+    </section>
 
-        <h1>
-        
-        Edwin Aldrin
-        
-        </h1>
+    <section class="experience-section" id="experience">
+      <div class="section-wrap section-block">
+        <div class="section-heading reveal"><p class="eyebrow">02 / EXPERIENCE</p><h2>Where I’m growing<br><span class="muted-heading">and what I contribute.</span></h2></div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><div class="timeline-date">OCT 2026 — PRESENT</div><div class="timeline-marker"></div><div class="timeline-content"><div class="job-topline"><div><h3>Associate Data Analyst</h3><p class="company">Arcadia <span class="current-pill">Current role</span></p></div><span class="job-symbol">A</span></div><ul><li>Clean, validate, sort, filter and organize datasets in Microsoft Excel to maintain data accuracy and consistency.</li><li>Use Excel formulas, PivotTables and charts to identify business trends and patterns.</li><li>Prepare data summaries and visual reports to support data-driven decision-making.</li></ul><div class="chip-row"><span>Microsoft Excel</span><span>Data validation</span><span>PivotTables</span><span>Reporting</span></div></div></article>
+          <article class="timeline-item reveal"><div class="timeline-date">APR 2026 — OCT 2026</div><div class="timeline-marker"></div><div class="timeline-content"><div class="job-topline"><div><h3>Data Analyst Intern</h3><p class="company">BDreamz Global Solutions</p></div><span class="job-symbol">BD</span></div><ul><li>Analyzed structured datasets to identify business trends, patterns and performance metrics.</li><li>Performed data cleaning, transformation and visualization on sample datasets.</li><li>Created interactive Power BI dashboards to explore trends and key performance indicators.</li></ul><div class="chip-row"><span>Power BI</span><span>Data cleaning</span><span>Visualization</span><span>KPI analysis</span></div></div></article>
+        </div>
+      </div>
+    </section>
 
-    <div class="profile">
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">03 / TOOLKIT</p><h2>Tools I use to<br><span class="muted-heading">work with data.</span></h2></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-icon">▦</div><h3>Microsoft Excel</h3><p>Data preparation, analysis and reporting.</p><div class="chip-row"><span>Formulas</span><span>PivotTables</span><span>Pivot Charts</span><span>Sorting & filtering</span><span>Data validation</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">⌘</div><h3>SQL & Databases</h3><p>Query, aggregate and organize structured data.</p><div class="chip-row"><span>Joins</span><span>CTEs</span><span>Subqueries</span><span>Window functions</span><span>MySQL</span><span>Snowflake</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">▥</div><h3>Power BI</h3><p>Build interactive dashboards and KPI reporting.</p><div class="chip-row"><span>Power Query</span><span>DAX</span><span>Dashboards</span><span>Drill-through</span><span>Tooltips</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">⌁</div><h3>Python & Analysis</h3><p>Support exploration and data transformation.</p><div class="chip-row"><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>EDA</span><span>Trend analysis</span></div></article>
+      </div>
+      <div class="skill-footer reveal"><span class="status-pulse"></span> Always learning, testing and improving my analytical workflow.</div>
+    </section>
+
+    <section class="projects-section" id="projects">
+      <div class="section-wrap section-block">
+        <div class="section-heading project-heading reveal">
+          <div><p class="eyebrow">04 / SELECTED WORK</p><h2>All projects.<br><span class="muted-heading">One analytical mindset.</span></h2></div>
+          <p class="heading-aside">Explore all nine projects across business intelligence, Excel, SQL, Python and data visualization.</p>
+        </div>
+        <div class="project-filters" role="group" aria-label="Filter projects">
+          <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All projects <span>09</span></button>
+          <button class="filter-button" type="button" data-filter="powerbi" aria-pressed="false">Power BI</button>
+          <button class="filter-button" type="button" data-filter="excel" aria-pressed="false">Excel</button>
+          <button class="filter-button" type="button" data-filter="sql" aria-pressed="false">SQL & Database</button>
+          <button class="filter-button" type="button" data-filter="python" aria-pressed="false">Python</button>
+        </div>
+        <div class="project-grid project-grid-all">
+          <article class="project-card reveal" data-category="ENERGY ANALYTICS">
+            <div class="project-image">
+              <img src="assets/images/Executive.png" alt="EV Charging Demand Analytics dashboard" loading="lazy" onerror="this.closest('.project-image').classList.add('image-missing'); this.style.display='none';">
+              <span class="project-index">PROJECT 01</span><span class="project-type">ENERGY ANALYTICS</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span>ENERGY ANALYTICS</span><span>AUG 2026</span></div>
+              <h3>EV Charging Demand Analytics</h3>
+              <p>Analyzed EV charging sessions, energy consumption, charging cost, waiting time, vehicle, charger and station performance.</p>
+              <ul class="project-points"><li>Built interactive dashboards with Executive, Charging, Vehicle, and Station & Location analysis.</li><li>Implemented bookmarks, filters, tooltips, drill-through navigation and Row-Level Security (RLS).</li><li>Created KPI reporting and detailed performance analysis for EV charging operations.</li></ul>
+              <div class="chip-row"><span>Power BI</span><span>Power Query</span><span>DAX</span><span>SQL</span><span>Excel</span></div>
+              <a class="text-link" href="https://github.com/edwinaldrin05/EV-Charging-Demand-Analytics" target="_blank" rel="noopener">View project on GitHub <span>↗</span></a>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="PYTHON · STREAMLIT">
+            <div class="project-image">
+              <img src="assets/images/overview_train.png" alt="Train Enquiry System application preview" loading="lazy" onerror="this.closest('.project-image').classList.add('image-missing'); this.style.display='none';">
+              <span class="project-index">PROJECT 02</span><span class="project-type">PYTHON · STREAMLIT</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span>PYTHON · STREAMLIT</span><span>AUG 2026</span></div>
+              <h3>Train Enquiry System</h3>
+              <p>Analyzed 11,113 train records across 8,099 stations to evaluate routes, journey duration, distance, stops and station-level patterns.</p>
+              <ul class="project-points"><li>Performed data cleaning, exploratory data analysis, train-level analysis, route analysis and station analysis.</li><li>Built an interactive Streamlit app with direct train search, route-type filtering, maximum-stop filtering, journey details and sorting.</li><li>Implemented station-sequence matching, journey duration calculation, distance analysis, overnight journey handling and missing-value handling.</li></ul>
+              <div class="chip-row"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Streamlit</span><span>Jupyter Notebook</span></div>
+              <a class="text-link" href="https://train-enquiry-system-cmi9bwmbhz6zj7txr8ta7n.streamlit.app/" target="_blank" rel="noopener">Open live demo <span>↗</span></a>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="E-COMMERCE ANALYTICS">
+            <div class="project-image">
+              <img src="assets/images/overview.png" alt="Online Shopping Analytics Dashboard" loading="lazy" onerror="this.closest('.project-image').classList.add('image-missing'); this.style.display='none';">
+              <span class="project-index">PROJECT 03</span><span class="project-type">E-COMMERCE ANALYTICS</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span>E-COMMERCE ANALYTICS</span><span>AUG 2026</span></div>
+              <h3>Online Shopping Analytics Dashboard</h3>
+              <p>Analyzed 185 orders, 100 customers and 100 products to evaluate sales, customer behavior, product demand and payment trends.</p>
+              <ul class="project-points"><li>Performed data cleaning, transformation, SQL analysis, data modeling and DAX-based KPI development.</li><li>Built interactive executive, customer, product, cart, order, order-item and payment analytics.</li><li>Used slicers, bookmarks, drill-through, tooltips and Row-Level Security.</li></ul>
+              <div class="chip-row"><span>Power BI</span><span>Power Query</span><span>SQL</span><span>DAX</span><span>RLS</span><span>KPI Reporting</span></div>
+              <a class="text-link" href="https://github.com/edwinaldrin05/Online-Shopping-Analytics-Dashboard" target="_blank" rel="noopener">View project on GitHub <span>↗</span></a>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="CONTENT ANALYTICS">
+            <div class="project-image">
+              <img src="assets/images/Netflix Content Analytics image.png" alt="Netflix Content Analytics preview" loading="lazy" onerror="this.closest('.project-image').classList.add('image-missing'); this.style.display='none';">
+              <span class="project-index">PROJECT 04</span><span class="project-type">CONTENT ANALYTICS</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span>CONTENT ANALYTICS</span><span>AUG 2026</span></div>
+              <h3>Netflix Content Analytics</h3>
+              <p>Analyzed 8,806 Netflix titles, including 6,130 movies and 2,676 TV shows, to identify content distribution and trends.</p>
+              <ul class="project-points"><li>Cleaned missing values, standardized fields and extracted year/month information for analysis.</li><li>Created 10+ PivotTable analyses covering content type, country, ratings, genres, directors, release year, duration and content trends.</li></ul>
+              <div class="chip-row"><span>Microsoft Excel</span><span>PivotTables</span><span>Pivot Charts</span><span>Data Cleaning</span></div>
+              <a class="text-link" href="https://github.com/edwinaldrin05/Netflix-Content-Analytics" target="_blank" rel="noopener">View project on GitHub <span>↗</span></a>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="DATABASE DESIGN">
+            <div class="project-image">
+              <img src="assets/images/online shoping data base.png" alt="Online Shopping relational database project" loading="lazy" onerror="this.closest('.project-image').classList.add('image-missing'); this.style.display='none';">
+              <span class="project-index">PROJECT 05</span><span class="project-type">DATABASE DESIGN</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span>DATABASE DESIGN</span><span>AUG 2026</span></div>
+              <h3>Online Shopping Database</h3>
+              <p>Designed a relational online shopping database with six interconnected tables for customers, products, carts, orders, order items and payments.</p>
+              <ul class="project-points"><li>Worked with 100 customers, 23 products, 200+ orders, 500 order items, 200 payments and 300 cart records.</li><li>Applied Joins, CTEs, subqueries, GROUP BY/HAVING, ROW_NUMBER, RANK, DENSE_RANK, views, stored procedures, functions, triggers, transactions and indexes.</li></ul>
+              <div class="chip-row"><span>MySQL</span><span>SQL</span></div>
+              <a class="text-link" href="https://github.com/edwinaldrin05/online-shopping-sql-analysis" target="_blank" rel="noopener">View project on GitHub <span>↗</span></a>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="WORKFORCE ANALYTICS">
+            <div class="project-image">
+              <img src="assets/images/job_market_dashboard.png" alt="Job Market Analytics Dashboard" loading="lazy" onerror="this.closest('.project-image').classList.add('image-missing'); this.style.display='none';">
+              <span class="project-index">PROJECT 06</span><span class="project-type">WORKFORCE ANALYTICS</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span>WORKFORCE ANALYTICS</span><span>MAY 2026</span></div>
+              <h3>Job Market Analytics Dashboard</h3>
+              <p>Analyzed 500 job records across 16 companies, 10 locations and 7 industries to identify job demand, hiring patterns, salary trends and employment opportunities.</p>
+              <ul class="project-points"><li>Analyzed salary distribution, job types, experience levels, locations, industries and in-demand skills after data preparation and SQL analysis.</li><li>Built an interactive dashboard with KPI cards, slicers, charts and analytical visuals.</li><li>Highlighted an average salary of 8.92 LPA and location-based hiring trends.</li></ul>
+              <div class="chip-row"><span>Power BI</span><span>Power Query</span><span>SQL</span><span>DAX</span><span>Data Visualization</span></div>
+              <a class="text-link" href="https://github.com/edwinaldrin05/Job-Market-Analytics-Dashboard" target="_blank" rel="noopener">View project on GitHub <span>↗</span></a>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="EDUCATION ANALYTICS">
+            <div class="project-image">
+              <img src="assets/images/Student_placement_dashboard.png" alt="Student Placement Analytics dashboard" loading="lazy" onerror="this.closest('.project-image').classList.add('image-missing'); this.style.display='none';">
+              <span class="project-index">PROJECT 07</span><span class="project-type">EDUCATION ANALYTICS</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span>EDUCATION ANALYTICS</span><span>JUN 2026</span></div>
+              <h3>Student Placement Analytics</h3>
+              <p>Analyzed 500 student records across five departments and seven hiring companies to evaluate placement performance and salary outcomes.</p>
+              <ul class="project-points"><li>Explored academic performance, internships, certifications and relationships with employability.</li><li>Built an interactive dashboard showing a 69.20% placement rate and 8.51 average CGPA.</li><li>Reported a 7.27 LPA average package for placed students and a 9.50 LPA highest package.</li></ul>
+              <div class="chip-row"><span>Power BI</span><span>Power Query</span><span>SQL</span><span>DAX</span><span>KPI Reporting</span></div>
+              <a class="text-link" href="https://github.com/edwinaldrin05/Student-Placement-Analytics-System" target="_blank" rel="noopener">View project on GitHub <span>↗</span></a>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="PUBLIC SAFETY ANALYTICS">
+            <div class="project-image">
+              <img src="assets/images/traffic_accident_dashboard.png" alt="Traffic Accident Analytics dashboard" loading="lazy" onerror="this.closest('.project-image').classList.add('image-missing'); this.style.display='none';">
+              <span class="project-index">PROJECT 08</span><span class="project-type">PUBLIC SAFETY ANALYTICS</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span>PUBLIC SAFETY ANALYTICS</span><span>JUL 2026</span></div>
+              <h3>Traffic Accident Dashboard</h3>
+              <p>Analyzed and cleaned 719 traffic accident records using Python and exploratory data analysis to identify patterns in severity, causes, weather, road conditions and casualties.</p>
+              <ul class="project-points"><li>Used SQL aggregation, filtering, grouping, ranking and KPI analysis across seven states and eight cities.</li><li>Analyzed 1,290 casualties, 178 accidents in Maharashtra and 157 accidents linked to drunk driving.</li><li>Developed an interactive dashboard with KPI cards, slicers, charts and geographic visuals for accident trends and risk factors.</li></ul>
+              <div class="chip-row"><span>Power BI</span><span>Power Query</span><span>SQL</span><span>DAX</span><span>Python</span><span>Pandas</span></div>
+              <a class="text-link" href="https://github.com/edwinaldrin05/Traffic-Accident-Analytics-Dashboard" target="_blank" rel="noopener">View project on GitHub <span>↗</span></a>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="SALES ANALYTICS">
+            <div class="project-image">
+              <img src="assets/images/sales dashboard.png" alt="Excel Sales Dashboard" loading="lazy" onerror="this.closest('.project-image').classList.add('image-missing'); this.style.display='none';">
+              <span class="project-index">PROJECT 09</span><span class="project-type">SALES ANALYTICS</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span>SALES ANALYTICS</span><span>JUN 2026</span></div>
+              <h3>Excel Sales Dashboard</h3>
+              <p>Analyzed 2,823 sales records across 19 countries and 73 cities, evaluating sales performance, order quantity, pricing, profit, customers, products and geographic trends.</p>
+              <ul class="project-points"><li>Identified $10.03M total sales, $9.83M total profit and 99,067 units sold.</li><li>Found Classic Cars as the top-performing product category with $3.92M in sales.</li><li>Created a dashboard with KPI cards, PivotTables, charts and filters for revenue, profit, product performance, customer trends and regional sales.</li></ul>
+              <div class="chip-row"><span>Microsoft Excel</span><span>PivotTables</span><span>Pivot Charts</span><span>Data Cleaning</span></div>
+              <a class="text-link" href="https://github.com/edwinaldrin05/Excel-Sales-Dashboard" target="_blank" rel="noopener">View project on GitHub <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+        <p class="project-footnote">Project metrics and descriptions are based on the details provided for each project. Update generic GitHub profile links with direct repository links when available.</p>
+      </div>
+    </section>
+
+    <section class="resume-section" id="resume">
+      <div class="section-wrap section-block">
+        <div class="section-heading reveal"><p class="eyebrow">05 / RESUME</p><h2>A snapshot of my<br><span class="muted-heading">professional profile.</span></h2></div>
+        <div class="resume-layout">
+          <div class="resume-card reveal">
+            <div class="resume-card-top">
+              <div class="resume-monogram">EA<span>.</span></div>
+              <span class="resume-status"><span class="status-pulse"></span> CURRENT PROFILE</span>
+            </div>
+            <div class="resume-identity">
+              <p class="resume-kicker">EDWIN ALDRIN P</p>
+              <h3>Associate Data Analyst</h3>
+              <p>Data Analytics · BCA Graduate · Chennai, India</p>
+            </div>
+            <div class="resume-facts">
+              <div><span class="fact-symbol">◎</span><span>BCA Graduate <strong>CGPA 8.30 / 10</strong></span></div>
+              <div><span class="fact-symbol">▦</span><span>Analytics toolkit <strong>Excel, Power BI, SQL, Python</strong></span></div>
+              <div><span class="fact-symbol">⌁</span><span>Reporting skills <strong>Data cleaning, validation, trend analysis</strong></span></div>
+              <div><span class="fact-symbol">▤</span><span>Project portfolio <strong>2 Data Analytics projects</strong></span></div>
+              <div><span class="fact-symbol">✦</span><span>Certifications <strong>Data Analyst Training, Python, Generative AI</strong></span></div>
+            </div>
+            <div class="resume-card-footer"><span>Updated for my current role</span><span>PDF · Resume</span></div>
+          </div>
+          <div class="resume-side reveal">
+            <p class="eyebrow">MY RESUME</p>
+            <h3>Experience, skills and projects — in one place.</h3>
+            <p>View the full resume for my professional summary, work experience at Arcadia and BDreamz Global Solutions, technical skills, project details, education and certifications.</p>
+            <div class="resume-actions">
+              <a class="button button-primary" href="assets/resume/Edwin_Aldrin_P_BCA_2026_8.30_CGPA_AssociateDataAnalyst.pdf" target="_blank" rel="noopener">View Resume <span aria-hidden="true">↗</span></a>
+              <a class="button button-dark-outline" href="assets/resume/Edwin_Aldrin_P_BCA_2026_8.30_CGPA_AssociateDataAnalyst.pdf" download>Download PDF <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="resume-note"><span class="note-check">✓</span><span>The PDF opens separately so visitors can read it without leaving the portfolio.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     
+
+<section class="section-wrap section-block achievements-section" id="achievements">
+  <div class="section-heading reveal">
+    <p class="eyebrow">06 / LEARNING & ACHIEVEMENTS</p>
+    <h2>
+      Building skills.<br>
+      <span class="muted-heading">Recognizing progress.</span>
+    </h2>
+  </div>
+
+  <div class="achievement-grid">
+
+    <!-- Besant Technologies Data Analyst Certificate -->
+    <article class="achievement-card certificate-card reveal">
+      <div class="certificate-preview">
         <img
-        src="assets/images/edi.png"
-        alt="Edwin">
-    
-    </div>
+          src="assets/certificates/besant DA certificate.jpeg"
+          alt="Besant Technologies Data Analyst Training Certificate"
+          loading="lazy">
+      </div>
 
-        <h3>
-        
-        Data Analyst
-        
-        </h3>
+      <div class="achievement-info">
+        <span class="achievement-label">TRAINING CERTIFICATE</span>
+        <h3>Data Analyst Training</h3>
+        <p>Besant Technologies · Certificate of completion · 09 October 2024.</p>
 
+        <a
+          class="text-link"
+          href="assets/certificates/besant DA certificate.pdf"
+          target="_blank"
+          rel="noopener">
+          View certificate <span>↗</span>
+        </a>
+      </div>
+    </article>
+
+    <!-- Infosys Python Certificate -->
+    <article class="achievement-card certificate-card reveal">
+      <div class="certificate-preview">
+        <img
+          src="assets/certificates/infosys pic.png"
+          alt="Infosys Foundation of Coding with Python certificate preview"
+          loading="lazy">
+      </div>
+
+      <div class="achievement-info">
+        <span class="achievement-label">CERTIFICATION</span>
+        <h3>Foundation of Coding with Python</h3>
+        <p>Infosys Springboard / Naan Mudhalvan.</p>
+
+        <a
+          class="text-link"
+          href="assets/certificates/infosys python.pdf"
+          target="_blank"
+          rel="noopener">
+          View certificate <span>↗</span>
+        </a>
+      </div>
+    </article>
+
+    <!-- IBM Generative AI Certificate -->
+    <article class="achievement-card certificate-card reveal">
+      <div class="certificate-preview">
+        <img
+          src="assets/certificates/ibm Pic.png"
+          alt="IBM Generative AI certificate preview"
+          loading="lazy">
+
+      </div>
+
+      <div class="achievement-info">
+        <span class="achievement-label">CERTIFICATION</span>
+        <h3>Generative AI with IBM</h3>
+        <p>SmartBridge · IBM SkillsBuild / Naan Mudhalvan.</p>
+
+        <a
+          class="text-link"
+          href="assets/certificates/ibm gen ai.pdf"
+          target="_blank"
+          rel="noopener">
+          View certificate <span>↗</span>
+        </a>
+      </div>
+    </article>
+
+    <!-- Education -->
+    <article class="achievement-card education-card reveal">
+      <div class="achievement-icon">◎</div>
+
+      <div class="achievement-info">
+        <span class="achievement-label">EDUCATION</span>
+        <h3>Bachelor of Computer Applications</h3>
         <p>
-        
-        SQL • Excel • Power BI • Python
-        
+          Thanthai Periyar Government Arts and Science College, Trichy.
         </p>
 
-</div>
-
-</div>
-
-</section>
-    <!-- ========================= -->
-    <!-- ABOUT -->
-    <!-- ========================= -->
-<section id="about">
-
-<div class="about-container">
-
-<div class="about-text">
-
-<h2>
-
-A LITTLE ABOUT ME
-
-</h2>
-
-<p>
-
-I am Edwin Aldrin, a BCA graduate passionate about Data
-Analytics. I enjoy transforming raw data into meaningful
-business insights using SQL, Excel, Python, and Power BI.
-Through academic projects and internship experience,
-I have developed interactive dashboards, analyzed trends,
-and supported data-driven decision-making.
-
-</p>
-
-</div>
-
-<div class="about-images">
-
-<img src="assets/images/work2.jpg">
-
-<img src="assets/images/work1.jpg">
-
-<img src="assets/images/work3.jpg">
-
-</div>
-
-</div>
-
-</section>
-
-
-    <!-- ========================= -->
-    <!-- SKILLS -->
-    <!-- ========================= -->
-
-    <section id="skills">
-
-<h2>
-
-MY SKILLS
-
-</h2>
-
-<div class="skills">
-
-<div class="skill">
-
-<img src="assets/icons/sql.png">
-
-<h3>
-
-Technical Skills
-
-</h3>
-
-<ul>
-
-<li>Database</li>
-
-<li>MySQL</li>
-
-<li>SQL</li>
-
-</ul>
-
-</div>
-
-<div class="skill">
-
-<img src="assets/icons/python.png">
-
-<h3>
-
-Programming
-
-</h3>
-
-<ul>
-
-<li>Python</li>
-
-<li>Pandas</li>
-
-<li>NumPy</li>
-
-</ul>
-
-</div>
-
-<div class="skill">
-
-<img src="assets/icons/powerbi.png">
-
-<h3>
-
-Business Intelligence
-
-</h3>
-
-<ul>
-
-<li>Dashboard Development</li>
-
-<li>Reporting</li>
-
-<li>KPI Analysis</li>
-
-<li>Trend Analysis</li>
-
-</ul>
-
-</div>
-<div class="skill">
-
-    <img src="assets/icons/excel.png" alt="Excel">
-
-    <h3>
-
-        Data Analysis
-
-    </h3>
-
-    <ul>
-
-        <li>Microsoft Excel</li>
-
-        <li>Power BI</li>
-
-        <li>Data Cleaning</li>
-
-        <li>Data Visualization</li>
-
-    </ul>
-
-</div>
-<div class="skill">
-
-    <img src="assets/icons/softskills.png" alt="Soft Skills">
-
-    <h3>
-
-        Soft Skills
-
-    </h3>
-
-    <ul>
-
-        <li>Analytical Thinking</li>
-
-        <li>Problem Solving</li>
-
-        <li>Team Collaboration</li>
-
-        <li>Time Management</li>
-
-    </ul>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-    <!-- ========================= -->
-    <!-- INTERNSHIP -->
-    <!-- ========================= -->
-
-    <section id="internship">
-
-<div class="left">
-
-<h2>
-
-INTERNSHIP EXPERIENCE
-
-</h2>
-
-<h3>
-
-Data Analyst Intern
-
-</h3>
-
-<p>
-
-BDreamz Global Solutions, Chennai
-
-</p>
-
-<p>
-
-Apr /2026 - Pesent
-
-</p>
-
-<p>
-
-• Analyzed Structured datasets to identify business trends, pattern and performance metrics for data analysis and reporting. <br>
-• Performed data cleaning, transformation and visualization on sample datasets to support dashboard development and
-business insights. <br>
-• Created interactive Power BI dashboards and reports to analyze trends and key performance indicators (KPIs). <br>
-
-</p>
-
-<h4>
-
-Tools Used
-
-</h4>
-
-<p>
-
-Excel | Power BI | Python | MySQL
-
-</p>
-
-</div>
-
-<div class="right">
-
-<img src="assets/images/B1.jpg">
-
-<img src="assets/images/B2.jpg">
-
-<img src="assets/images/B3.jpg">
-
-</div>
-
-</section>
-
-
-
-    <!-- ========================= -->
-    <!-- PROJECTS -->
-    <!-- ========================= -->
-
-    <section id="projects">
-
-<h2>
-
-FEATURED PROJECTS
-
-</h2>
-
-
-<div class="project-grid">
-
-<div class="card">
-
-<img src="assets/images/Executive.png" alt="EV Charging Demand Analytics">
-
-<h3>
-
-EV Charging Demand Analytics
-
-</h3>
-
-<p>
-
-<b>Tools:</b> Power BI, Power Query, DAX, SQL, Excel <br>
-• Analyzed EV charging sessions, energy consumption, charging cost, waiting time, vehicle, charger, and station performance. <br>
-• Built interactive dashboards with Executive, Charging, Vehicle, and Station & Location analysis. <br>
-• Implemented bookmarks, filters, tooltips, drill-through navigation, and Row-Level Security (RLS). <br>
-• Created KPI reporting and detailed performance analysis for EV charging operations. <br>
-<b>Project:</b> EV Charging Demand Analytics <br>
-<b>Aug - Sep 2026</b>
-
-</p>
-
-</div>
-
-<div class="card">
-
-<img src="assets/images/overview_train.png" alt="Train Enquiry System">
-
-<h3>
-
-Train Enquiry System
-
-</h3>
-
-<p>
-
-<b>Tools:</b> Python, Pandas, NumPy, Matplotlib, Streamlit, Jupyter Notebook <br>
-• Analyzed 11,113 train records across 8,099 stations to evaluate train routes, journey duration, distance, stops, and station-level patterns. <br>
-• Performed data cleaning, exploratory data analysis, train-level analysis, route analysis, station analysis, and generated analytical tables and visualizations. <br>
-• Built and deployed an interactive Streamlit Train Enquiry System with direct train search, route-type filtering, maximum-stop filtering, journey details, and result sorting. <br>
-<b>Live Demo:</b> <a href="https://train-enquiry-system-cmi9bwmbhz6zj7txr8ta7n.streamlit.app/" target="_blank">Train Enquiry System</a> <br>
-<b>Feb - Mar 2026</b>
-
-</p>
-
-</div>
-
-<div class="card">
-
-<img src="assets/images/overview.png" alt="Online Shopping Analytics Dashboard">
-
-<h3>
-
-Online Shopping Analytics Dashboard
-
-</h3>
-
-<p>
-
-<b>Tools:</b> Power BI, Power Query, SQL, DAX, RLS, KPI Reporting <br>
-• Analyzed 185 orders, 100 customers, and 100 products to evaluate sales, customer behavior, product demand, and payment trends. <br>
-• Performed data cleaning, transformation, SQL analysis, data modeling, and DAX-based KPI development to identify sales and customer insights. <br>
-• Built an interactive Power BI dashboard with executive, customer, product, cart, order, order-item, and payment analytics using slicers, bookmarks, drill-through, tooltips, and RLS. 
-<br> <b>Jan - Feb 2026</b>
-
-</p>
-
-</div>
-
-<div class="card">
-
-<img src="assets/images/Netflix Content Analytics image.png" alt="Netflix Content Analytics">
-
-<h3>
-
-Netflix Content Analytics
-
-</h3>
-
-<p>
-
-<b>Tools:</b> Microsoft Excel, Pivot Tables, Pivot Charts, Data Cleaning  <br>
-• Analyzed 8,806 Netflix titles, covering 6,130 movies and 2,676 TV shows to identify content distribution and trends. <br>
-• Cleaned and transformed the dataset by handling missing values, standardizing fields, and extracting year/month
-information for analysis. <br>
-• Built 10+ Pivot Table analyses covering content type, country, ratings, genres, directors, release year, duration, and content
-trends. 
-<br> <b>Jul - Aug 2026</b>
-
-</p>
-
-</div>
-
-<div class="card">
-
-<img src="assets/images/online shoping data base.png" alt="Online Shopping Database">
-
-<h3>
-
-Online Shopping Database
-
-</h3>
-
-<p>
-
-<b>Tools:</b> MySQL, SQL  <br>
-• Designed a relational online shopping database with 6 interconnected tables covering customers, products, carts, orders,
-order items, and payments. <br>
-• Implemented and analyzed 100 customers, 23 products, 200+ orders, 500 order items, 200 payments and 300 cart
-records using SQL queries. <br>
-• Applied Joins, CTEs, subqueries, Group By/Having, RowNumber, Rank, DenseRank, Views, Stored Procedures, Functions,
-Triggers, Transactions and Indexes for business analysis and database management.
-<br> <b>Jan - Feb 2026</b>
-
-</p>
-
-</div>
-
-
-<div class="card">
-
-<img src="assets/images/job_market_dashboard.png" alt="Job Market Dashboard">
-
-<h3>
-
-Job Market Analytics Dashboard
-
-</h3>
-
-<p>
-
-<b>Tools:</b> Power BI, Power Query, SQL, Data Visualization, DAX  <br>
-• Analyzed 500 job records across 16 companies, 10 locations, and 7 industries to identify job demand, hiring patterns,
-salary trends, and employment opportunities.  <br>
-• Performed data cleaning, transformation, SQL analysis, and Power BI visualization to analyze salary distribution, job types,
-experience levels, locations, industries, and in-demand skills.  <br>
-• Built an interactive dashboard with KPI cards, slicers, charts, and analytical visuals, highlighting an average salary of 8.92
-LPA and location-based hiring trends.
-<br><b>Feb 2026</b>
-
-</p>
-
-</div>
-
-<div class="card">
-
-<img src="assets/images/Student_placement_dashboard.png" alt="Student Placement dashboard">
-
-<h3>
-
-Student Placement Analytics
-
-</h3>
-
-<p>
-
-<b>Tools:</b> Power BI, Power Query, SQL, DAX, KPI Reporting  <br>
-• Analyzed 500 student records across 5 departments and 7 hiring companies to evaluate placement performance,
-academic performance, internships, certifications, and salary outcomes.  <br>
-• Performed data cleaning, transformation, SQL analysis, and KPI development to identify placement trends and relationships
-between CGPA, internships, certifications, and employability.  <br>
-• Developed an interactive placement dashboard showing a 69.20 placement rate, 8.51 average CGPA, 7.27 LPA average
-package for placed students and a 9.50 LPA highest package
-<br>
-<b>Mar 2026 </b>
-
-</p>
-
-</div>
-
-
-
-<div class="card">
-
-<img src="assets/images/traffic_accident_dashboard.png" alt="Traffic Accident Dashboard">
-
-<h3>
-
-Traffic Accident Dashboard
-
-</h3>
-
-<p>
-    <b>Tools:</b> Power BI, Power Query, SQL, DAX, KPI Reporting
-     <br>
-
-•  Analyzed and cleaned 719 traffic accident records using Python (Pandas), performing data preprocessing, exploratory data analysis (EDA), and identifying patterns across accident severity, causes, weather, road conditions, and casualties. <br>
-
-•  Used SQL for data aggregation, filtering, grouping, ranking, and KPI analysis across 7 states and 8 cities, identifying 1,290 casualties, 178 accidents in Maharashtra and 157 accidents linked to drunk driving.  <br>
-
-•  Developed an interactive Power BI dashboard with KPI cards, slicers, charts, and geographic visualizations to analyze accident trends, risk scores, severity, and contributing factors, enabling data-driven insights and traffic safety decision-making.
-
-<br>
-<b>Mar 2026 </b>
-
-
-</p>
-
-</div>
-<div class="card">
-
-    <img src="assets/images/sales dashboard.png" alt="Excel Sales Dashboard">
-
-    <h3>
-
-        Excel Sales Dashboard
-
-    </h3>
-
-    <p>
-        <b>Tools:</b> Microsoft Excel, Pivot Tables, Pivot Charts, Data Cleaning <br>
-        •  Analyzed 2,823 sales records using Excel, evaluating sales performance, order quantity, pricing, profit, customers, products, and geographic trends across 19 countries and 73 cities. <br>
-        •  Performed sales and profitability analysis using Pivot Tables and calculated metrics, identifying $10.03M total sales, $9.83M total profit, and 99,067 units sold, with Classic Cars generating $3.92M in sales as the top-performing product category. <br>
-        •  Developed an interactive Excel Sales Dashboard with KPI cards, Pivot Tables, charts, and filters to track revenue, profit, product performance, customer trends, and regional sales, enabling data-driven business decision-making.    
-        <br> <b>Jan 2026 </b>    
-    </p>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-    <!-- ========================= -->
-    <!-- CONTACT -->
-    <!-- ========================= -->
-
-    <section id="contact">
-
-    <div class="contact-container">
-
-        <!-- Left Side -->
-        <div class="contact-left">
-
-            <h2>LET'S CONNECT</h2>
-
-            <p class="contact-description">
-                I'm always open to discussing Data Analyst opportunities,
-                internships, collaborations, or exciting projects.
-                Feel free to get in touch!
-            </p>
-
-            <div class="contact-info">
-
-                <p>
-                    📧
-                    <span>edwinaldrin1719@gmail.com</span>
-                </p>
-
-                <p>
-                    📞
-                    <span>+91 93456 29648</span>
-                </p>
-
-                <p>
-                    📍
-                    <span>Currently based in Chennai | Originally from Ariyalur, Tamil Nadu.</span>
-                </p>
-
-            </div>
-
-            <div class="social">
-<a href="mailto:edwinaldrin1719@gmail.com">
-    <i class="fa-solid fa-envelope"></i>
-</a>
-
-</a>
-
-<a href="https://www.linkedin.com/in/edwinaldrin05/" target="_blank">
-    <i class="fa-brands fa-linkedin"></i>
-</a>
-
-<a href="https://github.com/edwinaldrin05" target="_blank">
-    <i class="fa-brands fa-github"></i>
-</a>
-
-
-            </div>
-
-            <p class="bottom-text">
-                Let's turn data into meaningful insights together!
-            </p>
-
+        <div class="education-score">
+          <strong>8.30</strong>
+          <span>CGPA / 10</span>
+          <small>2023 — 2026</small>
         </div>
+      </div>
+    </article>
 
-        <!-- Right Side -->
-        <div class="contact-right">
-
-            <img src="assets/images/contact edi.jpg" alt="Edwin Aldrin">
-
-        </div>
-
-    </div>
-
+  </div>
 </section>
 
-    <!-- ========================= -->
-    <!-- RESUME -->
-    <!-- ========================= -->
+    <section class="contact-section" id="contact">
+      <div class="section-wrap contact-wrap">
+        <div class="contact-copy reveal"><p class="eyebrow">07 / CONTACT</p><h2>Let’s make data<br><span class="gradient-text">make sense.</span></h2><p>Have a project idea, a question about my work, or want to connect professionally? I’d be happy to hear from you.</p><div class="contact-actions"><a class="button button-primary" href="mailto:edwinaldrin1719@gmail.com">Send me an email <span>↗</span></a><button class="button button-secondary copy-email" type="button" data-email="edwinaldrin1719@gmail.com">Copy email <span>▣</span></button></div><p class="copy-feedback" aria-live="polite"></p></div>
+        <div class="contact-panel reveal"><div class="contact-panel-top"><span class="status-pulse"></span> OPEN TO PROFESSIONAL CONNECTIONS</div><a href="mailto:edwinaldrin1719@gmail.com"><span>EMAIL</span><strong>edwinaldrin1719@gmail.com ↗</strong></a><a href="https://www.linkedin.com/in/edwinaldrin05/" target="_blank" rel="noopener"><span>LINKEDIN</span><strong>Connect with me ↗</strong></a><a href="https://github.com/edwinaldrin05" target="_blank" rel="noopener"><span>GITHUB</span><strong>View my repositories ↗</strong></a><div class="contact-location">⌖ Chennai, Tamil Nadu, India</div></div>
+      </div>
+    </section>
+  </main>
 
-    <section id="resume">
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">EA</span><span>Edwin Aldrin<span class="brand-dot">.</span></span></a><p>Thoughtful analysis. Clear reporting. Better decisions.</p><span class="footer-year">© <span id="year"></span> Edwin Aldrin P</span></footer>
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
 
-<h2>
-
-RESUME
-
-</h2>
-
-<div class="resume-card">
-
-<h3>
-
-Edwin Aldrin P
-
-</h3>
-
-<p>
-
-Data Analyst | BCA Graduate
-
-</p>
-
-<ul>
-
-<li>BCA Graduate (CGPA 8.30)</li>
-
-<li>Data Analyst</li>
-
-<li>SQL, Excel, Python, Power BI</li>
-
-<li>2 Data Analytics Projects</li>
-
-<li>Multiple Certifications</li>
-
-</ul>
-
-</div>
-
-<a
-href="assets/resume/Edwin_Aldrin_P_BCA_2026_8.30_CGPA_DataAnalyst.pdf"
-target="_blank"
-class="btn">
-
-View Resume
-
-</a>
-
-</section>
-
-
-
-    <!-- ========================= -->
-    <!-- FOOTER -->
-    <!-- ========================= -->
-
-<footer>
-
-<p>
-
-© 2026 Edwin Aldrin P | Data Analyst Portfolio
-
-</p>
-
-</footer>
-
-
-
-
-    <!-- ========================= -->
-    <!-- BACK TO TOP -->
-    <!-- ========================= -->
-
-<button id="scroll-top">
-    <i class="fa-solid fa-arrow-up"></i>
-</button>
-
-
-
-
-    <!-- JAVASCRIPT -->
-
-    <script src="script.js"></script>
-
+  <div class="lightbox" id="certificate-lightbox" role="dialog" aria-modal="true" aria-label="Certificate preview" hidden><button class="lightbox-close" type="button" aria-label="Close certificate preview">×</button><img src="assets/images/data-analyst-certificate.jpg" alt="Besant Technologies Data Analyst Training certificate"></div>
 </body>
-
 </html>
